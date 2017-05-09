@@ -33,7 +33,7 @@ private let dexcomApplicationId = "d89443d2-327c-4a6f-89e5-496bbb0317db"
 private let dexcomLoginPath = "/ShareWebServices/Services/General/LoginPublisherAccountByName"
 private let dexcomLatestGlucosePath = "/ShareWebServices/Services/Publisher/ReadPublisherLatestGlucoseValues"
 private let dexcomServerUS = "https://nightscoutshareserverdmpkl.azurewebsites.net"
-private let dexcomServerNonUS = "https://shareous1.dexcom.com"
+private let dexcomServerNonUS = "https://nightscoutshareserverdmpkl.azurewebsites.net"
 private let maxReauthAttempts = 2
 
 // TODO use an HTTP library which supports JSON and futures instead of callbacks.
